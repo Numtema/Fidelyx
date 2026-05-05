@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-brand-bg: #F4F7F2;
+  --color-brand-bg-soft: #EEF4EA;
+  --color-brand-shell: #101412;
+  --color-brand-shell-elevated: #151B18;
+  --color-brand-surface: #FFFFFF;
+  --color-brand-surface-soft: #F8FAF6;
+  --color-brand-surface-muted: #EEF1EA;
+  --color-brand-border: #DDE5D8;
+  --color-brand-border-strong: #B8C7B1;
+  --color-brand-text: #111611;
+  --color-brand-text-secondary: #5E6B5B;
+  --color-brand-text-muted: #8B9787;
+  --color-brand-text-inverse: #F7FBF4;
+  --color-brand-accent: #A6FF4D;
+  --color-brand-accent-strong: #72D91C;
+  --color-brand-accent-soft: #E7FFD2;
+  --color-brand-accent-surface: #F0FFE4;
+  --color-brand-accent-dark: #1B3D0A;
+  --color-brand-success: #2FBF71;
+  --color-brand-warning: #F4B740;
+  --color-brand-danger: #E85B5B;
+  --color-brand-info: #4FA3F7;
+
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-xxl: 32px;
+  
+  --shadow-card: 0 12px 32px rgba(23, 35, 20, 0.08);
+  --shadow-card-hover: 0 18px 44px rgba(23, 35, 20, 0.13);
+  --shadow-app-shell: 0 28px 80px rgba(10, 18, 12, 0.22);
+  --shadow-accent-glow: 0 12px 28px rgba(166, 255, 77, 0.32);
+  --shadow-mobile-card: 0 18px 48px rgba(18, 25, 18, 0.18);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-bg);
+    color: var(--color-brand-text);
+  }
+}
